@@ -1,0 +1,5 @@
+WinActivate("File Upload")
+Sleep(2000)
+ControlFocus("File Upload","","[CLASS:Edit; INSTANCE:1]")
+ControlSetText("File Upload","","[CLASS:Edit; INSTANCE:1]","C:\Users\admin\Desktop\Test Yantra Sel batch.txt")
+ControlClick("File Upload","","[CLASS:Button; INSTANCE:1]")

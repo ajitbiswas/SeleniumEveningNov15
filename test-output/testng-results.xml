@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Create user...]]>
+    </line>
+    <line>
+      <![CDATA[deleteuser...]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49" started-at="2018-01-10T02:26:01Z" finished-at="2018-01-10T02:26:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49" started-at="2018-01-10T02:26:01Z" finished-at="2018-01-10T02:26:01Z">
+      <class name="tesntnapckage.TestngTestAnnotationParameters">
+        <test-method status="PASS" signature="createuser()[pri:1, instance:tesntnapckage.TestngTestAnnotationParameters@2ef5e5e3]" name="createuser" duration-ms="13" started-at="2018-01-10T07:56:01Z" finished-at="2018-01-10T07:56:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create user...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method status="PASS" signature="deleteuser()[pri:3, instance:tesntnapckage.TestngTestAnnotationParameters@2ef5e5e3]" name="deleteuser" duration-ms="3" started-at="2018-01-10T07:56:01Z" finished-at="2018-01-10T07:56:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteuser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- tesntnapckage.TestngTestAnnotationParameters -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
